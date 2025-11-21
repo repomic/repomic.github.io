@@ -42,3 +42,38 @@ params:
   hideSummary: false
   showtoc: false
   tocopen: false
+
+    # home-info mode
+  homeInfoParams:
+    Title: "Code and Software Musings"
+    Content: |
+      Insights and tangents from my 25+ years in software development.
+      
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+menu:
+  main:
+    - identifier: archives
+      name: Archive
+      url: /archives/
+      weight: 2
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    style: monokai
