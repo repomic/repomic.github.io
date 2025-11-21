@@ -1,7 +1,7 @@
 baseURL: "https://repomic.github.io"
 languageCode: en-us
 title: Repomic1
-theme: PaperMod
+theme: minima
 
 pagination:
   pagerSize: 10
