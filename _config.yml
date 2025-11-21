@@ -1,3 +1,12 @@
-theme: jekyll-theme-minimal
-title: Repomic's homepage
-description: Bookmark this to keep an eye on my project updates!
+baseURL: "https://repomic.github.io"
+languageCode: en-us
+title: Repomic
+theme: PaperMod
+
+pagination:
+  pagerSize: 10
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
